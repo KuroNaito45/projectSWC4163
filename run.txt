@@ -1,0 +1,8 @@
+Backend
+php -S localhost:8888 -t public public/index.php
+
+json.db
+json-server --watch db.json
+
+frontend
+ng serve --open
